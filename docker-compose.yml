@@ -21,5 +21,6 @@ services:
     image: postgres:13.4
     environment:
       POSTGRES_PASSWORD: test
+      POSTGRES_DB: amasin
     volumes:
       - ./backend/docker/postgres:/docker-entrypoint-initdb.d

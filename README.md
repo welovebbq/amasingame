@@ -1,1 +1,4 @@
 # amasingame
+```
+npm run dev
+```
